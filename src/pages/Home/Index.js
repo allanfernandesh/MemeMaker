@@ -94,6 +94,9 @@ export default function Home() {
                     </>
                 )}
             </Card>
+            <footer>
+                <p>By Alan F. Henrique reference <a href="https://github.com/allanfernandesh/MemeMaker">github</a></p>
+            </footer>
         </Wrapper>
     );
 }

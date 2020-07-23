@@ -7,6 +7,33 @@ export const Wrapper =  styled.div`
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    position: relative;
+
+
+    footer {
+        width: 100%;
+        border-top: 1px solid #ccc;
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 30px;
+        align-items: flex-start;
+        justify-self: flex-end;
+        margin-top: auto;
+
+        p {
+            padding: 10px 0;
+            color: #888;
+        }
+        a {
+            text-decoration: none;
+            cursor: pointer;
+            color: blue;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
 `;
 
 export const Card = styled.div`
@@ -15,6 +42,7 @@ export const Card = styled.div`
     border-radius: 8px;
     padding: 20px;
     margin-top: 15px;
+    margin-bottom: 15px;
     box-shadow: 0 6px 10px 0 rgba(0,0,0,0.20);
     display: flex;
     flex-direction: column;
@@ -33,7 +61,7 @@ export const Card = styled.div`
 
 export const Templates = styled.div`
     width: 100%;
-    height: 135px;
+    height: 150px;
     background: #eee;
     border-radius: 8px;
     overflow-y: auto;
